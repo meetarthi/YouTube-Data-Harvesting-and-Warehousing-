@@ -37,6 +37,14 @@ Able to collect data for multiple YouTube channels and store them in a database 
 
 ![Screenshot from 2023-06-10 03-51-40](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/ee8df0ce-045e-4c9a-a6db-75a82679a822)
 Select the Channel name from the Dropdown, and click the button **Migrate to SQL**,The data will be migrated to MySQL DB.
+Once you select the channel and press the migrate button, the channel data would be deleted from mongodb collection, and the channel name wont appear in the dropdown.
+
+4. **Retrieving information/data from SQL by selecting the Questions in the Dropdown**
+
+![Screenshot from 2023-06-10 04-13-38](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/ee523083-0938-448b-b044-067487d431c8)
+![Screenshot from 2023-06-10 04-15-53](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/6471e9e8-a36a-4011-9d03-1d16fd92e234)
+
+
 
 
 
