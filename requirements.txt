@@ -2,3 +2,5 @@ Streamlit==1.22.0
 python-youtube==0.9.0
 pandas==2.0.1
 mysql-connector==2.2.9
+PyMySQL==1.0.3
+SQLAlchemy==2.0.15
