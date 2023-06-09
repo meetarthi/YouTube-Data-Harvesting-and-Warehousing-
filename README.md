@@ -16,6 +16,16 @@ Able to collect data for multiple YouTube channels and store them in a database 
 5. **Front-End/GUI** - Streamlit
 
 
+**Workflow**
+------------
+1. Create a dashboard using streamlit.
+2. Obtain API credentials by enabling YouTube Data API in Google Developers console.
+3. Using Google Api , extract YouTube Channel, Playlist, Video and Comment data.
+4. Push the extracted YouTube data into MongoDB.
+5. Migrate the data in MongoDB to SQL.
+6. Retrieve the youtube information using SQL query.
+
+
 **User-Interface and Output Display**
 ------------
 1. **Intro Page - About the app and getting Channel ID**
@@ -37,7 +47,7 @@ Able to collect data for multiple YouTube channels and store them in a database 
 ------------
 ![Screenshot from 2023-06-10 03-51-40](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/ee8df0ce-045e-4c9a-a6db-75a82679a822)
 Select the Channel name from the Dropdown, and click the button **Migrate to SQL**,The data will be migrated to MySQL DB.
-Once you select the channel and press the migrate button, the channel data would be deleted from mongodb collection, and the channel name wont appear in the dropdown.
+Once you select the channel and press the migrate button, the channel data would be deleted from mongodb collection, and the channel name won't appear in the dropdown.
 
 4. **Retrieving information/data from SQL by selecting the Questions in the Dropdown**
 ------------
