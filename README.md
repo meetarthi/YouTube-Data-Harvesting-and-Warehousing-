@@ -43,6 +43,9 @@ Once you select the channel and press the migrate button, the channel data would
 
 ![Screenshot from 2023-06-10 04-13-38](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/ee523083-0938-448b-b044-067487d431c8)
 ![Screenshot from 2023-06-10 04-15-53](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/6471e9e8-a36a-4011-9d03-1d16fd92e234)
+![Screenshot from 2023-06-10 04-17-25](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/d710a5d9-4754-476c-a348-6a4a245bb05c)
+![Screenshot from 2023-06-10 04-18-26](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/f1279511-5a5c-457b-988d-b5ae6ed7199e)
+![Screenshot from 2023-06-10 04-18-51](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/359dc89f-8a50-4e0b-9095-52a14d2cdbe2)
 
 
 
