@@ -9,4 +9,8 @@ Able to collect data for multiple YouTube channels and store them in a database 
 
 2. **Libraries** - python-youtube, pandas, mysql-connector, PyMySQL, SQLAlchemy
 
-3.
+3. **Database** - MongoDB, MySQL
+
+4. **API key**
+
+5. **Front-End/GUI** - Streamlit
