@@ -13,10 +13,10 @@ import sqlalchemy
 from sqlalchemy import create_engine
 import pymysql
 
-api = Api(api_key="AIzaSyDRL-lDX4sVR6Ei6aLMYdbiY1SB7msuyyA")
+api = Api(api_key="Api_key***********")
 
 #establishing a connection in mongodb
-client = pymongo.MongoClient("mongodb+srv://meetarthi:Farmer246@cluster0.gkstsrk.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://username:password@cluster0.gkstsrk.mongodb.net/?retryWrites=true&w=majority")
 dv = client.e12
 collection=dv.youtube
 
@@ -24,12 +24,12 @@ collection=dv.youtube
 # #establishing a connection in sql
 connect = mysql.connector.connect(
 host = "db4free.net",
-user = "youtubearthi",
-password = "Arthi@123",
+user = "user",
+password = "password",
 auth_plugin = "mysql_native_password")
 
 
-engine = create_engine('mysql+pymysql://youtubearthi:Arthi%40123@db4free.net/youtubearthi?charset=utf8mb4', echo=False)
+engine = create_engine('mysql+pymysql://user:password@db4free.net/user?charset=utf8mb4', echo=False)
 
 
 #pushing youtube details into mongoDB
@@ -253,7 +253,7 @@ elif app_mode == 'Data Analysis':
 
     input_question = st.selectbox("**Select a Question regarding the channels**:",Questions)
 
-    retrieve_answer_from_sql = pymysql.connect(host = "db4free.net",user = "youtubearthi",password = "Arthi@123",db='youtubearthi')
+    retrieve_answer_from_sql = pymysql.connect(host = "db4free.net",user = "user",password = "password",db='db')
     cursor = retrieve_answer_from_sql.cursor()
 
     if input_question == '1. What are the names of all the videos and their corresponding channels':
